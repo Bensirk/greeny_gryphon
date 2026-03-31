@@ -20,20 +20,22 @@
     <nav class="main-nav">
         <div class="nav-container">
 
-            <a href="index.html" class="logo">
+            <!-- LOGO -->
+            <a href="01-index.html" class="logo">
                 <img src="images/logo.png" alt="Greeny Gryphon Logo">
             </a>
 
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="09-about.html">About</a></li>
-                <li><a href="02-services.html">Services</a></li>
-                <li><a href="08-pricing.html">Pricing</a></li>
-                <li><a href="03-gallery.html">Gallery</a></li>
-                <li><a href="10-contacts.html">Contacts</a></li>
-                <li><a href="04-cart.html">Cart</a></li>
-                <li><a href="07-confirmation.html">Confirmation</a></li>
-            </ul>
+             <!-- NAVIGATION LINKS -->
+<ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="09-about.html">About</a></li>
+    <li><a href="02-services.html">Services</a></li>
+    <li><a href="08-pricing.html">Pricing</a></li>
+    <li><a href="03-gallery.html" class="active">Gallery</a></li>
+    <li><a href="10-contacts.html">Contacts</a></li>
+    <li><a href="04-cart.html">Cart</a></li>
+    <li><a href="07-confirmation.html">Confirmation</a></li>
+</ul>
 
         </div>
     </nav>
@@ -48,79 +50,67 @@
         </div>
     </section>
 
-    <!-- CHECKOUT CONTENT -->
+    <!-- CHECKOUT LAYOUT -->
     <section class="container mt-lg mb-xl">
 
-        <!-- BILLING + PAYMENT FORM -->
-        <div class="checkout-form border rounded p-md mb-xl">
+        <!-- LEFT: FORM -->
+        <div class="col-8">
+            <div class="checkout-form border rounded p-md">
 
-            <form>
-
-                <!-- BILLING INFORMATION -->
                 <h3>Billing Information</h3>
 
-                <label class="mt-sm" for="fullname">Full Name</label>
-                <input id="fullname" name="fullname" type="text" autocomplete="name"
-                       class="w-100 mt-xs p-sm border rounded">
+                <form class="mt-md">
 
-                <label class="mt-sm" for="email">Email Address</label>
-                <input id="email" name="email" type="email" autocomplete="email"
-                       class="w-100 mt-xs p-sm border rounded">
+                    <label class="mt-sm">Full Name</label>
+                    <input type="text" class="w-100 mt-xs p-sm border rounded">
 
-                <label class="mt-sm" for="phone">Phone Number</label>
-                <input id="phone" name="phone" type="tel" autocomplete="tel"
-                       class="w-100 mt-xs p-sm border rounded">
+                    <label class="mt-sm">Email Address</label>
+                    <input type="email" class="w-100 mt-xs p-sm border rounded">
 
-                <label class="mt-sm" for="address">Address</label>
-                <input id="address" name="address" type="text" autocomplete="street-address"
-                       class="w-100 mt-xs p-sm border rounded">
+                    <label class="mt-sm">Phone Number</label>
+                    <input type="text" class="w-100 mt-xs p-sm border rounded">
 
-                <label class="mt-sm" for="city">City</label>
-                <input id="city" name="city" type="text" autocomplete="address-level2"
-                       class="w-100 mt-xs p-sm border rounded">
+                    <label class="mt-sm">Address</label>
+                    <input type="text" class="w-100 mt-xs p-sm border rounded">
 
-                <label class="mt-sm" for="state">State</label>
-                <input id="state" name="state" type="text" autocomplete="address-level1"
-                       class="w-100 mt-xs p-sm border rounded">
+                    <label class="mt-sm">City</label>
+                    <input type="text" class="w-100 mt-xs p-sm border rounded">
 
-                <label class="mt-sm" for="zip">Zip Code</label>
-                <input id="zip" name="zip" type="text" autocomplete="postal-code"
-                       class="w-100 mt-xs p-sm border rounded">
+                    <label class="mt-sm">State</label>
+                    <input type="text" class="w-100 mt-xs p-sm border rounded">
 
+                    <label class="mt-sm">Zip Code</label>
+                    <input type="text" class="w-100 mt-xs p-sm border rounded">
 
-                <!-- PAYMENT DETAILS -->
-                <h3 class="mt-lg">Payment Details</h3>
+                    <h3 class="mt-lg">Payment Details</h3>
 
-                <label class="mt-sm" for="cardnumber">Card Number</label>
-                <input id="cardnumber" name="cardnumber" type="text" inputmode="numeric"
-                       autocomplete="cc-number"
-                       class="w-100 mt-xs p-sm border rounded">
+                    <label class="mt-sm">Card Number</label>
+                    <input type="text" class="w-100 mt-xs p-sm border rounded">
 
-                <label class="mt-sm" for="exp">Expiration Date</label>
-                <input id="exp" name="exp" type="text" autocomplete="cc-exp"
-                       placeholder="MM/YY"
-                       class="w-100 mt-xs p-sm border rounded">
+                    <label class="mt-sm">Expiration Date</label>
+                    <input type="text" class="w-100 mt-xs p-sm border rounded">
 
-                <label class="mt-sm" for="cvv">CVV</label>
-                <input id="cvv" name="cvv" type="text" inputmode="numeric"
-                       autocomplete="cc-csc"
-                       class="w-100 mt-xs p-sm border rounded">
+                    <label class="mt-sm">CVV</label>
+                    <input type="text" class="w-100 mt-xs p-sm border rounded">
 
-                <a href="07-confirmation.html" class="btn w-100 mt-lg">Complete Order</a>
+                    <a href="07-confirmation page.html" class="btn w-100 mt-lg">Complete Order</a>
 
-            </form>
+                </form>
 
+            </div>
         </div>
 
-        <!-- ORDER SUMMARY -->
-        <div class="order-summary border rounded p-md">
-            <h3>Order Summary</h3>
+        <!-- RIGHT: ORDER SUMMARY -->
+        <div class="col-4">
+            <div class="order-summary border rounded p-md">
+                <h3>Order Summary</h3>
 
-            <p class="mt-sm">Photo Package: <strong>$120.00</strong></p>
-            <p>Touch‑Up Service: <strong>$40.00</strong></p>
-            <p>Tax: <strong>$12.80</strong></p>
+                <p class="mt-sm">Photo Package: <strong>$120.00</strong></p>
+                <p>Touch‑Up Service: <strong>$40.00</strong></p>
+                <p>Tax: <strong>$12.80</strong></p>
 
-            <h3 class="mt-md">Total: $172.80</h3>
+                <h3 class="mt-md">Total: $172.80</h3>
+            </div>
         </div>
 
     </section>
@@ -143,12 +133,12 @@
 
         <div class="footer-section">
             <h4>Social</h4>
-            <ul class="social-links">
-                <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-                <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-                <li><a href="#"><i class="fa-brands fa-tiktok"></i> TikTok</a></li>
-                <li><a href="#"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
-            </ul>
+           <ul class="social-links">
+    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+    <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
+    <li><a href="#"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+</ul>
         </div>
 
     </div>
