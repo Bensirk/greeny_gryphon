@@ -4,124 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greeny Gryphon Photography – Gallery</title>
-
+    <meta name="description" content="Browse our photography portfolio featuring portraits, events, and professional sessions">
+    
     <!-- Global Styles -->
     <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <!-- Page-Specific Styles -->
     <link rel="stylesheet" href="css/pages/03-gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
 </head>
-
 <body class="page-wrapper">
-
 <header>
     <nav class="main-nav">
         <div class="nav-container">
-
             <a href="index.html" class="logo">
                 <img src="images/logo.png" alt="Greeny Gryphon Logo">
             </a>
-
-             <!-- NAVIGATION LINKS -->
- <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="09-about.html">About</a></li>
-    <li><a href="02-services.html">Services</a></li>
-    <li><a href="08-pricing.html">Pricing</a></li>
-    <li><a href="10-contacts.html">Contacts</a></li>
-    <li><a href="04-cart.html">Cart</a></li>
-    <li><a href="07-confirmation.html">Confirmation</a></li>
-   </ul>
-
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="09-about.html">About</a></li>
+                <li><a href="02-services.html">Services</a></li>
+                <li><a href="08-pricing.html">Pricing</a></li>
+                <li><a href="03-gallery.html" class="active">Gallery</a></li>
+                <li><a href="10-contacts.html">Contacts</a></li>
+                <li><a href="04-cart.html">Cart</a></li>
+            </ul>
         </div>
     </nav>
 </header>
 
-<main>
-
-    <!-- PAGE TITLE -->
+<main class="page-content">
+    <!-- PAGE HEADER -->
     <section class="container mt-xl">
-        <div class="col-12">
-            <h1></h1>
+        <h1 class="gallery-title">Portfolio Gallery</h1>
+        <p class="gallery-intro">Capturing moments that matter</p>
+    </section>
+
+    <!-- GALLERY GRID -->
+    <section class="container mt-lg mb-xl">
+        <div class="gallery-wrapper">
+            <div class="gallery-item">
+                <a href="images/photo2.jpg" data-lightbox="portfolio" data-title="Outdoor Portrait Session">
+                    <img src="images/photo2.jpg" alt="Outdoor portrait session with natural lighting at golden hour">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="images/photo3.jpg" data-lightbox="portfolio" data-title="Wedding Ceremony">
+                    <img src="images/photo3.jpg" alt="Wedding ceremony candid moment between bride and groom">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="images/photo4.jpg" data-lightbox="portfolio" data-title="Corporate Headshot">
+                    <img src="images/photo4.jpg" alt="Professional corporate headshot with studio lighting">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="images/photo5.jpg" data-lightbox="portfolio" data-title="Event Photography">
+                    <img src="images/photo5.jpg" alt="Event photography capturing live performance moment">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="images/photo6.jpg" data-lightbox="portfolio" data-title="Product Photography">
+                    <img src="images/photo6.jpg" alt="Product photography with clean white background">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="images/photo7.jpg" data-lightbox="portfolio" data-title="Lifestyle Session">
+                    <img src="images/photo7.jpg" alt="Lifestyle photography session in urban environment">
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- FULL-WIDTH GALLERY -->
-    <section class="container mt-xl">
-    <h1 class="gallery-title">Gallery</h1>
-</section>
-
-<section class="container mt-lg mb-xl">
-    <div class="gallery-wrapper">
-
-        <div class="gallery-item">
-            <img src="images/photo2.jpg" alt="">
-        </div>
-
-        <div class="gallery-item">
-            <img src="images/photo3.jpg" alt="">
-        </div>
-
-        <div class="gallery-item">
-            <img src="images/photo4.jpg" alt="">
-        </div>
-
-        <div class="gallery-item">
-            <img src="images/photo5.jpg" alt="">
-        </div>
-
-        <div class="gallery-item">
-            <img src="images/photo6.jpg" alt="">
-        </div>
-
-        <div class="gallery-item">
-            <img src="images/photo7.jpg" alt="">
-        </div>
-
-        <section class="container mt-lg mb-xl">
-
-    <h2 class="gallery-subtitle">A Photo for Every Occasion</h2>
-
-    <div class="gallery-wrapper">
-        <!-- your gallery items -->
-    </div>
-
-</section>
-
-
-
-    </div>
-</section>
+    <!-- CALL TO ACTION -->
+    <section class="container mt-lg mb-xl text-center">
+        <h2 class="gallery-subtitle">A Photo for Every Occasion</h2>
+        <p>Browse our full portfolio or <a href="02-services.html" class="btn btn-primary">Book a Session</a></p>
+    </section>
 </main>
 
 <footer class="site-footer">
     <div class="footer-container">
-
         <div class="footer-section">
             <h4>Contact</h4>
             <p><a href="10-contacts.html">Contact Form</a></p>
-            <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p><a href="tel:+19195551234">(919) 555-1234</a></p>
+            <p><a href="mailto:info@greenygryphon.com">info@greenygryphon.com</a></p>
         </div>
-
         <div class="footer-section">
-            <h4>Email</h4>
-            <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <h4>Quick Links</h4>
+            <p><a href="02-services.html">Services</a></p>
+            <p><a href="08-pricing.html">Pricing</a></p>
+            <p><a href="09-about.html">About Us</a></p>
         </div>
-
         <div class="footer-section">
             <h4>Social</h4>
             <ul class="social-links">
-                <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-                <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-                <li><a href="#"><i class="fa-brands fa-tiktok"></i> TikTok</a></li>
-                <li><a href="#"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                <li><a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i> TikTok</a></li>
             </ul>
         </div>
-
     </div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 </body>
 </html>
