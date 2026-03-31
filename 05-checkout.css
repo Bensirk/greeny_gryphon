@@ -12,7 +12,7 @@
 .logo img {
     width: 90px;
     height: auto;
-    display: block;
+    display: inline-block;
 }
 
 .checkout-header {
