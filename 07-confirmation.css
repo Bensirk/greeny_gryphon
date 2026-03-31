@@ -1,0 +1,82 @@
+.main-nav {
+    padding: 15px 30px;
+    background: var(--color-light);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+
+/* ------------------------------
+   FULL-WIDTH CONFIRMATION SECTION
+------------------------------ */
+.confirm-section {
+    width: 100%;
+    padding: 80px 0;
+    background: linear-gradient(180deg, #ffffff, #e8f5e9);
+}
+
+/* ------------------------------
+   CENTERED CONFIRMATION BOX
+------------------------------ */
+.confirm-box {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* ------------------------------
+   HEADING
+------------------------------ */
+.confirm-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2e7d32;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ------------------------------
+   MESSAGE
+------------------------------ */
+.confirm-message {
+    text-align: center;
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+/* ------------------------------
+   ORDER DETAILS
+------------------------------ */
+.confirm-details {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.detail-row label {
+    font-weight: 600;
+    color: #333;
+}
+
+.detail-row span {
+    color: #555;
+}

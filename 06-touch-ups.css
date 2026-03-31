@@ -1,0 +1,24 @@
+.main-nav {
+    padding: 15px 30px;
+    background: var(--color-light);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+
+.confirmation {
+    background-image: url("../../Images/photo7.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    border-radius: 10px;
+}

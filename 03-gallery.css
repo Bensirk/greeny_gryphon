@@ -1,0 +1,79 @@
+/* ------------------------------
+   PAGE TITLE
+------------------------------ */
+.gallery-title {
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 40px;
+    color: #50a86e;
+}
+
+/* ------------------------------
+   NAV GRADIENT
+------------------------------ */
+.main-nav {
+    background: linear-gradient(90deg, #82be85, #c3dac6);
+    padding: 15px 30px;
+    .logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+}
+
+/* ------------------------------
+   MAIN SECTION GRADIENT
+------------------------------ */
+main {
+    background: linear-gradient(180deg, #ffffff, #e8f5e9);
+    padding: 60px 0;
+}
+
+/* ------------------------------
+   GALLERY LAYOUT
+------------------------------ */
+.gallery-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+.gallery-item {
+    width: 33.333%;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+/* ------------------------------
+   IMAGE STYLING
+------------------------------ */
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+    border: 4px solid #3b866a;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform .25s ease, box-shadow .25s ease;
+    display: block;
+}
+
+/* Hover interaction */
+.gallery-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.gallery-subtitle {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #2e7d32; /* your brand green */
+    letter-spacing: 0.5px;
+}

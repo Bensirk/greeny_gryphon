@@ -1,0 +1,28 @@
+.main-nav {
+    padding: 15px 30px;
+    background: var(--color-light);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+
+.service-card.portrait {
+    background-image: url("../../Images/photo2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.service-card.event {
+    background-image: url("../../Images/photo3.jpg");
+    background-size: cover;
+    background-position: center;
+}

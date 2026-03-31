@@ -1,0 +1,23 @@
+.main-nav {
+    padding: 15px 30px;
+    background: var(--color-light);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+
+.about-photo {
+    background-image: url("../../Images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}

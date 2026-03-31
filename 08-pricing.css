@@ -1,0 +1,23 @@
+.main-nav {
+    padding: 15px 30px;
+    background: var(--color-light);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+
+.pricing-header {
+    background-image: url("../../Images/photo3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
